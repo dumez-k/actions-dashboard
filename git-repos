@@ -1,0 +1,5 @@
+paketo-buildpacks/stacks
+paketo-buildpacks/stack-usns
+paketo-buildpacks/tiny-release
+paketo-buildpacks/full-release
+paketo-buildpacks/base-release
