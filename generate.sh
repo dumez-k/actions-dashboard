@@ -40,7 +40,7 @@ parse_repo() {
     count=0
     while read -r workflow; do
         [[ "$workflow" != *.yaml ]] && [[ "$workflow" != *.yml ]] && continue
-        name=$(yq r <(curl -sL "https://raw.githubusercontent.com/$1/master/$workflow") name)
+        name=$(yq r <(curl -sL "https://raw.githubusercontent.com/$1/main/$workflow") name)
         [ -z "$name" ] && name="$workflow"
         encoded_name="$(urlencode "$name")"
         writeout "["
