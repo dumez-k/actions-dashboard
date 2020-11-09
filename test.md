@@ -22,6 +22,6 @@ paketo-buildpacks/base-release
 
 ---
 
-[!test](https://github.com/pivotal/stacks-operator/workflows/Test%20and%20create%20draft%20release/badge.svg)]
+[[!test](https://github.com/pivotal/stacks-operator/workflows/Test%20and%20create%20draft%20release/badge.svg)]
 
 
